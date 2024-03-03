@@ -1,0 +1,314 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+
+.grid article img {
+    max-width: 100%;
+}
+
+
+
+main {
+    padding: 10px;
+    margin: 20px auto;
+   
+    color: #425832;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+main .card img {
+    max-width: 50%;
+
+}
+
+
+
+header {
+
+    align-items: center;
+
+}
+
+
+
+header img {
+    width: 400px;
+    grid-column: 3/11;
+    justify-self: center;
+
+
+}
+
+
+
+header nav {
+    grid-column: 1 / 12;
+    justify-self: center;
+
+
+    font-family: 'Lato:wght@700', sans-serif;
+    color: #7ba02c;
+    padding-top: 20px
+}
+
+
+header nav a {
+
+    text-decoration: none;
+    padding: 10px 17px;
+    font-size: 0.8rem;
+    color: #7ba02c
+}
+
+
+aside {
+    grid-column: 1/4;
+
+}
+
+
+
+.card {
+    grid-column: 2/7;
+    text-align: left;
+    
+    font-size: 1.1rem;
+    padding: 20px;
+    background-color: #f3fae7;
+
+}
+
+
+.card2 {
+
+    grid-column: 7/12;
+
+}
+
+
+
+.card2 img {
+    width: 600px;
+
+}
+
+
+.card3 {
+    grid-column: 4/14;
+    text-align: center;
+
+    font-size: 1.1rem;
+    padding: 20px;
+
+}
+
+
+.card4 {
+    grid-column: 1/4;
+
+    text-align: center;
+   
+    font-size: 1.1rem;
+    padding: 2px;
+    background-color: #f3fae7;
+    border: 10px solid white;
+
+}
+
+
+.card4 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.card5 {
+    grid-column: span 3;
+    text-align: left;
+ 
+    font-size: 1.1rem;
+    padding: 15px;
+
+
+}
+
+
+
+
+.card6 {
+    grid-column: 1/4;
+
+    text-align: center;
+
+    font-size: 1.1rem;
+
+    background-color: #f3fae7;
+    border: 10px solid white;
+    padding: 20px;
+
+
+}
+
+
+
+.card6 h2 {
+
+    margin: 0;
+    color: #628d2e;
+
+}
+
+
+
+.card7 {
+    grid-column: 1/4;
+
+    text-align: center;
+  
+    font-size: 1.1rem;
+    margin: 0;
+    border: 10px solid white;
+    padding: 0px
+}
+
+
+
+.card8 {
+    grid-column: 4/14;
+
+    text-align: center;
+ 
+    font-size: 1.24rem;
+
+    background-color: #f3fae7;
+    border: 10px solid white;
+
+}
+
+
+.card9 {
+    grid-column: 1/4;
+    padding: 2px;
+    border: 10px solid white;
+    width: 285px;
+    height: 400px;
+
+
+
+
+}
+
+
+.green {
+
+    color: #628d2e;
+}
+
+
+
+/* Media Queries: */
+
+@media screen and (max-width: 800px) {
+
+    .card {
+        grid-column: span 12;
+        text-align: left;
+     
+        font-size: 1.1rem;
+        padding: 20px;
+        background-color: #f3fae7;
+
+    }
+
+    .card2 {
+
+        grid-column: span 12;
+
+    }
+
+
+
+    .card3 {
+        grid-column: span 12;
+        text-align: center;
+
+        font-size: 1.1rem;
+        padding: 20px;
+
+    }
+
+
+
+
+    aside {
+        grid-column: span 12;
+
+        text-align: center;
+
+        font-size: 1.1rem;
+        padding: 2px;
+        background-color: #f3fae7;
+        border: 10px solid white;
+
+    }
+
+
+    .card5 {
+        grid-column: span 12;
+        text-align: left;
+   
+        font-size: 1.1rem;
+        padding: 15px;
+
+
+    }
+
+
+    .card9 iframe {
+        grid-column: span 12;
+        padding: 0px;
+        border: 10px solid white;
+        width: 600px;
+        height: 300px;
+
+
+    }
+
+    .card7 {
+        grid-column: span 12;
+
+        text-align: center;
+
+        font-size: 1.1rem;
+        margin: 0;
+        border: 10px solid white;
+        padding: 0px
+    }
+
+
+
+    .card8 {
+        grid-column: span 12;
+
+        text-align: center;
+       
+        font-size: 1.24rem;
+
+        background-color: #f3fae7;
+        border: 10px solid white;
+
+    }
+
+
+
+
+
+
+}
